@@ -29,7 +29,7 @@ export const AboutKanaa = () => (
       </div>
       <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
         <img
-          src="assets/img/baby-01.jpg"
+          src="/assets/img/baby-01.jpg"
           className="rounded-3 shadow-sm"
           alt="Image"
         />
