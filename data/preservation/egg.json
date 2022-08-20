@@ -1,0 +1,43 @@
+{
+  "title": "Egg Freezing",
+  "description": "<p>Oocyte Cryopreservation(OC) is a process by which eggs are formed, extracted and stored for future use in a lady.</p> <p>The lady undergoes a transvaginal ultrasound, evaluation of hormones and detailed counseling about the prospects in her particular case prior to starting the cycle.</p>",
+  "process": {
+    "title": "Egg Freezing process timeline",
+    "steps": [
+      "Day 2 -patient reports for basal scan and blood tests.",
+      "Gonadotropin injections are started on a daily basis.",
+      "Day 5-transvaginal ultrasound monitoring started.",
+      "Antagonist injection started on days 5-7 depending on scan findings.",
+      "Day 9-12-Trigger injection given once follicles reach mature size.",
+      "Ovum pick up done under anaesthesia",
+      "Collected mature eggs are frozen in liquid nitrogen for future use.",
+      "Result time!"
+    ]
+  },
+  "faq": [
+    {
+      "question": "What are the medical reasons for OC?",
+      "answer": "<p>OC was originally introduced as a fertility preservation option for those women who were going to undergo surgical removal of the ovaries or chemotherapy treatment for cancer. Here it is usually done as an emergency procedure as treatment for cancer will need to be initiated as soon as possible.</p>"
+    },
+    {
+      "question": "What is “social” egg freezing?",
+      "answer": "<p>It is the same process of OC done as a planned procedure where the woman wants to preserve her eggs for social rather than medical reasons.<br> The better terminology proposed is OC for anticipated gamete exhaustion(AGE)<br> Unfortunately, the reproductive window is definitely shorter in women than in men.<br> The time period when fertility rates peak in a lady is also the same as when her education and career advancement are at a peak.<br>It gives women more reproductive choice and decreases the pressure they face from the “biological clock” </p>"
+    },
+    {
+      "question": " Can oocyte freezing be considered as an insurance policy for future fertility?",
+      "answer": "<p>NO, the best option will always be less invasive methods and natural conception if it is a possibility.<br> It is important to counsel women that though OC is an option to consider, it can in no manner be looked at as an option which will provide a 100% guarantee of giving birth.<br> The chances of a successful outcome primarily increase with two factors;<br> A.The younger the age at which the eggs are frozen- women who freeze their eggs at less than 35 years of age have more chances of giving birth.<br> B.The more eggs that are frozen, the better the chances of pregnancy.<br> One latest study reported that if a woman less than 35 years freezes 10-20 eggs, she has a 70-90% chance of having at least one child from them.<br> At age 38 and above, a woman may need to freeze about 20-30 eggs to have a reasonable chance of having at least one live child.<br> This may increase the number of cycles needed to collect the same number of eggs as the age of the lady increases.</p>"
+    },
+    {
+      "question": "What are the complications of OC?",
+      "answer": "<p>The main complication is risk of OHSS as our aim is deliberate hyperstimulation to get the maximum number of eggs possible.<br> The risk of OHSS can be minimized by ;<br> A. Using the antagonist protocol.<br> B. Using the agonist trigger and avoiding hCG trigger.<br> C. Using antagonist injections post ovum pick up.<br> </p>"
+    },
+    {
+      "question": "Will frozen eggs give lesser pregnancy rates as compared to fresh eggs?",
+      "answer": "<p>With the advent of the vitrification procedure, the rates of survival after thawing have increased substantially.<br> Rates of fertilization, implantation and clinical pregnancy rates have been reported to be similar for both fresh and frozen oocytes.<br> But, the success rates may also differ with the expertise and experience of the person who does the vitrification.</p>"
+    },
+    {
+      "question": "Are there any risks to offspring with the use of frozen eggs?",
+      "answer": "<p>As yet, there have been no increased risk of congenital abnormalities reported in children born from frozen eggs as compared to other IVF pregnancies. But the data on long-term oocyte storage and long-term offspring health will be known only with time and increased use of the treatment.</p>"
+    }
+  ]
+}

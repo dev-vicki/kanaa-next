@@ -1,0 +1,31 @@
+{
+  "title": "EMBRYO CRYOPRESERVATION",
+  "description": "<p>This is the process of freezing embryos by a process called vitrification for intended long-term use in the future.</p>",
+  "content": "<p>1. When excess embryos are made in an IVF cycle, in order to avoid the risk of OHSS, we may choose to freeze them all and replace them in subsequent months.<br> 2. As typically only 2-3 embryos maximum are transferred at one shot, the excess embryos, if any, will be frozen for future use with the consent of the couple.<br> 3. For couples requiring embryo donation.<br> 4. For couples who are married and want to freeze their embryos as they want to postpone childbearing for personal reasons.<br> 5. When embryos need to be tested for any genetic diseases prior to using them. </p>",
+  "steps": [
+    "The formation of embryos is by an IVF/ICSI cycle give link to the same",
+    "Once embryos are formed, the excess is frozen by a process called vitrification."
+  ],
+  "faq": [
+    {
+      "question": "Will embryos be damaged during the process of freezing?",
+      "answer": "<p>Embryo freezing has been in common use since the 1980s and has been proven to be a safe and effective method, especially with the advent of vitrification.<br> There is a theoretical risk of embryos getting damaged or not surviving when thawed.,<br> As usually only good quality embryos are chosen to be frozen,the risk of damaging the embryos remains negligible in experienced hands. </p>"
+    },
+    {
+      "question": "How long can embryos be stored in a frozen state?",
+      "answer": "<p>There is no theoretical limit to the number of years where they remain viable but under the latest Indian law, storage is allowed for a period of ten years.</p>"
+    },
+    {
+      "question": "Do frozen embryos give as good success rates as fresh embryos?",
+      "answer": "<p>YES, World over there has been an increase in the number of frozen embryo transfers(FET) in the past decade. Frozen embryo transfers are reported to give as good as and in many instances better pregnancy rates when compared to fresh transfers.</p>"
+    },
+    {
+      "question": "What can I do if I no longer wish to continue storing my embryos?",
+      "answer": "<p>In case you have finished your family or do not want to renew storage for some other reason, you can choose to,<br> 1. Discard the embryos.<br> 2. Donate them for research or for training purposes.<br> This is usually covered in the consent form signed at the start of the process itself. </p>"
+    },
+    {
+      "question": "Is consent of both partners needed for freezing?",
+      "answer": "<p>YES, Informed consent is taken from both partners before proceeding with freezing. Consent is also taken about what to do in case there is the untimely death of one partner or in case of legal divorce.</p>"
+    }
+  ]
+}

@@ -13,8 +13,8 @@ export const Footer = () => {
               sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget
               elementum dolor ullamcorper sodales ultrices eros.
             </p>
-            <form className="needs-validation" novalidate>
-              <label for="subscr-email" className="form-label">
+            <form className="needs-validation" noValidate>
+              <label htmlFor="subscr-email" className="form-label">
                 Subscribe to our newsletter
               </label>
               <div className="input-group">

@@ -1,0 +1,14 @@
+{
+  "title": "SPERM DONATION",
+  "description": "<p>The use of donor sperm may be needed in men with very poor or nil sperm counts due to various reasons. It may be used in treatments such as IUI or IVF.</p>",
+  "faq": [
+    {
+      "question": "Who can donate sperm?",
+      "answer": "<p>Any male in the age group of 21 to 55 years of age can donate his sperm in a registered ART bank. Sperms are allowed to be donated only once in a lifetime. And the sperms donated by one person can be used only in one couple under the latest ART bill.</p>"
+    },
+    {
+      "question": "What tests should be performed in a sperm donor?",
+      "answer": "<p>The relevant details such as height, weight, the colour of skin and eyes, educational qualification, profession and family history of any inheritable diseases should be recorded in an appropriate proforma. They should be free of diseases like hypertension, diabetes as well as identify common genetic diseases like thalassemia.</p><p>They should be free of sexually transmitted diseases like HIV, HbSAg, Syphilis as well as Hepatitis C. Hence tests for these are done.</p><p>Blood grouping and typing is also documented.</p><p>A semen analysis is performed preferably using a semen analyzer and the parameters should be normal as per the WHO standard for semen analysis. Sperms from anonymous donors must remain quarantined for a period of six months after which the donor is screened once again for infectious diseases like HIV and HBSAG before using the sample.</p>"
+    }
+  ]
+}

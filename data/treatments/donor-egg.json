@@ -1,0 +1,14 @@
+{
+  "title": "OOCYTE DONATION",
+  "description": "<p>This is the process in which a willing oocyte donor agrees to undergo ovarian stimulation and collection of her eggs by the process of IVF, and donates those eggs for use in a couple trying to have a baby. This may be necessary where the wife has no eggs or very poor ovarian reserve in conditions such as;</p> <ul> <li>Primary ovarian insufficiency.</li> <li>Repeat surgeries in endometriosis.</li> <li>Removal of ovaries for some pathology.</li> <li>Chemotherapy or radiotherapy for cancer which may have destroyed the oocytes.</li> <li>Post menopausal women</li> </ul>",
+  "faq": [
+    {
+      "question": "Who can donate eggs?",
+      "answer": "<p>Under the latest ART act 2021, oocyte donors should be between the age of 23-35 years and can be supplied only by registered ART banks. They should donate eggs only once in their lifetime. Only a maximum of 7 eggs can be collected</p>"
+    },
+    {
+      "question": "What tests should be performed on a donor before selection?",
+      "answer": "<p>The relevant details such as height, weight, colour of skin and eyes, educational qualification, profession and family history of any inheritable diseases should be recorded in an appropriate proforma.<br> They should be free of diseases like hypertension, diabetes as well as identifying common genetic diseases like thalassemia.<br> They should be free of sexually transmitted diseases like HIV, HbSAg, Syphilis, as well as Hepatitis C. Hence, tests for these are done.<br> Blood grouping and typing is documented.<br> Tests for ovarian reserve as well as ultrasound to image the uterus and ovaries may be performed.</p>"
+    }
+  ]
+}
