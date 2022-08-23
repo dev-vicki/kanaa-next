@@ -38,8 +38,6 @@ const Home: NextPage<{ navbar: any }> = ({ navbar }) => {
     // <!-- Page wrapper for sticky footer -->
     // <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
     <main className="page-wrapper">
-      {/* <Script src="/assets/js/bootstrap.min.js" />
-      <Script src="/assets/js/theme.min.js" /> */}
       <Navbar />
       <HeroSlider />
       <AboutKanaa />
