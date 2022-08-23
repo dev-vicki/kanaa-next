@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { slugify } from '../../utils';
-import { items } from '../../data/navbar.json';
+import navbarData from '../../data/navbar.json';
+import Image from 'next/image';
+const { items } = navbarData;
 interface Props {
   items: Array<{
     name: string;
@@ -17,13 +19,17 @@ export const Navbar = () => {
     //   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
     <header className="header navbar navbar-expand-lg bg-light">
       <div className="container px-3">
-        <a href="index.html" className="navbar-brand pe-3">
-          <img
-            src="http://kanaafertility.com/assets/images/logo.png"
-            alt="Kanaa Logo"
-            width="96px"
-          />
-        </a>
+        <Link href="/">
+          <a className="navbar-brand pe-3">
+            <Image
+              src="/assets/img/logo.png"
+              alt="Kanaa Logo"
+              width={96}
+              height={48}
+            />
+          </a>
+        </Link>
+
         <div id="navbarNav" className="offcanvas offcanvas-end">
           <div className="offcanvas-header border-bottom">
             <h5 className="offcanvas-title">Menu</h5>
@@ -87,25 +93,22 @@ export const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a href="account-details.html" className="dropdown-item">
-                      About us
-                    </a>
+                    <Link href="/about-us">
+                      <a className="dropdown-item">About us</a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="account-details.html" className="dropdown-item">
+                    <a href="#" className="dropdown-item">
                       Our Doctors
                     </a>
                   </li>
                   <li>
-                    <a href="account-security.html" className="dropdown-item">
+                    <a href="#" className="dropdown-item">
                       Press
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="account-notifications.html"
-                      className="dropdown-item"
-                    >
+                    <a href="#" className="dropdown-item">
                       Careers
                     </a>
                   </li>
@@ -124,15 +127,12 @@ export const Navbar = () => {
             </ul>
           </div>
           <div className="offcanvas-header border-top">
-            <a
-              href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/"
-              className="btn btn-primary w-100"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <i className="bx bx-paper-plane fs-4 lh-1 me-1"></i>
-              &nbsp;Contact us
-            </a>
+            <Link href="/contact-us">
+              <a className="btn btn-primary w-100">
+                <i className="bx bx-paper-plane fs-5 lh-1 me-1"></i>
+                &nbsp;Contact us
+              </a>
+            </Link>
           </div>
         </div>
         {/* <!-- <div

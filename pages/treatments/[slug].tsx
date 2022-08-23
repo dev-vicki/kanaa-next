@@ -20,3 +20,5 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 const TreatmentPage: NextPage = () => {
   return <div>Hello</div>;
 };
+
+export default TreatmentPage;

@@ -33,7 +33,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 const AboutUsPage: NextPage<{ navbar: any }> = ({ navbar }) => {
   return (
     <main className="page-wrapper">
-      <Navbar items={navbar.items} />
+      <Navbar />
       <VisionAndMission />
       <SocialNetworks />
       <Footer />

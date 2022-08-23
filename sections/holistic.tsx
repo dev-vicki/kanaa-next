@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { items, title } from '../data/holistic.json';
+import holisticData from '../data/holistic.json';
 import { slugify } from '../utils';
+
+const { items, title } = holisticData;
 const TabId = (slug: string) => `${slug}-tab`;
 
 export function Holistic() {

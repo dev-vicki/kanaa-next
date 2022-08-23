@@ -16,6 +16,7 @@ export default function Document() {
         />
       </Head>
       <body>
+        <Main />
         <script
           src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
           integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -32,9 +33,8 @@ export default function Document() {
           src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"
           async
         />
-        <Main />
-        <NextScript />
         <script src="/assets/js/theme.min.js" async />
+        <NextScript />
       </body>
     </Html>
   );

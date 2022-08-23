@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function ContactForm() {
   return (
     <section className="position-relative bg-secondary pt-5">
@@ -5,9 +7,11 @@ export function ContactForm() {
         <nav className="pt-lg-4 pb-3 mb-2 mb-sm-3" aria-label="breadcrumb">
           <ol className="breadcrumb mb-0">
             <li className="breadcrumb-item">
-              <a href="index.html">
-                <i className="bx bx-home-alt fs-lg me-1"></i>Home
-              </a>
+              <Link href="/">
+                <a>
+                  <i className="bx bx-home-alt fs-lg me-1"></i>Home
+                </a>
+              </Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
               Contact Us
