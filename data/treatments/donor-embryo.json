@@ -2,9 +2,14 @@
   "title": "EMBRYO CRYOPRESERVATION",
   "description": "<p>This is the process of freezing embryos by a process called vitrification for intended long-term use in the future.</p>",
   "content": "<p>1. When excess embryos are made in an IVF cycle, in order to avoid the risk of OHSS, we may choose to freeze them all and replace them in subsequent months.<br> 2. As typically only 2-3 embryos maximum are transferred at one shot, the excess embryos, if any, will be frozen for future use with the consent of the couple.<br> 3. For couples requiring embryo donation.<br> 4. For couples who are married and want to freeze their embryos as they want to postpone childbearing for personal reasons.<br> 5. When embryos need to be tested for any genetic diseases prior to using them. </p>",
+  "image": "/treatments/donar-embryo.jpeg",
   "steps": [
-    "The formation of embryos is by an IVF/ICSI cycle give link to the same",
-    "Once embryos are formed, the excess is frozen by a process called vitrification."
+    {
+      "description": "The formation of embryos is by an IVF/ICSI cycle give link to the same"
+    },
+    {
+      "description": "Once embryos are formed, the excess is frozen by a process called vitrification."
+    }
   ],
   "faq": [
     {

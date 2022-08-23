@@ -3,14 +3,30 @@
   "description": "<p>TIUI is a simple procedure where we take the fast-moving sperm from the male partner and place it inside the cavity of the uterus, at the time the egg gets released.</p><p>So basically we bypass the mouth of the uterus(the cervix) and place the sperm a little closer to the egg! There onwards, the rest of the steps must happen naturally for a pregnancy to take place.</p>",
   "image": "/treatments/iui.jpeg",
   "steps": [
-    "Basal scan to rule out any cysts on day 2 or 3 of periods",
-    "Ovulation induction medicines are given to stimulate the growth of one or more follicles.",
-    "Follicular monitoring scan started on day 10 or 11 of cycle",
-    "HCG injection is given to help release the egg from the follicle once it becomes mature",
-    "After taking consent, the husband gives the sample for IUI which is then processed to separate the fast-moving sperms",
-    "This sample is then inseminated in the wife by a simple 5 min OP procedure.",
-    "The couple can leave the clinic after a short interval of 15-20 min of taking rest.",
-    "Beta Hcg blood test to check for pregnancy is done 15 days later"
+    {
+      "description": "Basal scan to rule out any cysts on day 2 or 3 of periods"
+    },
+    {
+      "description": "Ovulation induction medicines are given to stimulate the growth of one or more follicles."
+    },
+    {
+      "description": "Follicular monitoring scan started on day 10 or 11 of cycle"
+    },
+    {
+      "description": "HCG injection is given to help release the egg from the follicle once it becomes mature"
+    },
+    {
+      "description": "After taking consent, the husband gives the sample for IUI which is then processed to separate the fast-moving sperms"
+    },
+    {
+      "description": "This sample is then inseminated in the wife by a simple 5 min OP procedure."
+    },
+    {
+      "description": "The couple can leave the clinic after a short interval of 15-20 min of taking rest."
+    },
+    {
+      "description": "Beta Hcg blood test to check for pregnancy is done 15 days later"
+    }
   ],
   "faq": [
     {

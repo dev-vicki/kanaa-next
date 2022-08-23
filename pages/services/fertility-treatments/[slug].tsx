@@ -3,16 +3,25 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import { Navbar } from '../../../components/Navbar';
+import { Faq } from '../../../sections/faq';
+import { Footer } from '../../../components/Footer';
+import { Steps } from '../../../sections/steps';
 
 interface Faq {
   question: string;
   answer: string;
+}
+
+interface Step {
+  title?: string;
+  description: string;
 }
 interface Treatment {
   title: string;
   description: string;
   image: string;
   faq: Faq[];
+  steps?: Step[];
 }
 
 const treatmentsDirectory = path.join(process.cwd(), '/data/treatments');
@@ -85,7 +94,7 @@ const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
         <div className="row row-cols-1 row-cols-md-2 g-0 pb-2">
           <div
-            className="col order-md-2 position-relative bg-position-center bg-size-cover bg-repeat-0 zindex-2"
+            className="col order-md-2 position-relative bg-position-center bg-size-contain bg-repeat-0 zindex-2"
             style={{
               backgroundImage: `url(/assets/img${data.image})`,
               borderRadius: '.5rem .5rem .5rem 0',
@@ -123,24 +132,14 @@ const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
                   className="pb-2 mb-4 mb-xxl-5"
                   dangerouslySetInnerHTML={{ __html: data.description }}
                 />
-                {/* <div className="d-xxl-flex align-items-center">
-                <a href="#" className="btn btn-primary shadow-primary btn-lg">
-                  Make an appointment
-                </a>
-                <ul className="list-unstyled ps-xxl-4 pt-4 pt-xxl-0 ms-xxl-2">
-                  <li>
-                    <strong>Mon &mdash; Fri:</strong> 9:00 am &mdash; 22:00 am
-                  </li>
-                  <li>
-                    <strong>Sat &mdash; Sun:</strong> 9:00 am &mdash; 20:00 am
-                  </li>
-                </ul>
-              </div> */}
               </div>
             </div>
           </div>
         </div>
+        {data.steps ? <Steps items={data.steps} /> : null}
       </section>
+      {data.faq ? <Faq items={data.faq} /> : null}
+      <Footer />
     </main>
   );
 };

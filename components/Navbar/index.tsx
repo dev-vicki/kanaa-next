@@ -115,12 +115,7 @@ export const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="components/typography.html" className="nav-link">
-                  Health Assessments
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="docs/getting-started.html" className="nav-link">
+                <a href="#" className="nav-link">
                   A-Z of Fertility
                 </a>
               </li>

@@ -1,0 +1,97 @@
+{
+  "title": "In Vitro Fertilization",
+  "description": "<p>Since the birth of Louise Brown in 1978, the field of ART has grown by leaps and bounds with exciting developments coming to the fore every year, all aimed at making the process safer for the mother. To put it simply, it is a process where we grow an embryo in the IVF lab and then replace it in the uterus.</p><p>Though commonly referred to as “test-tube baby”, it does not mean that the baby is actually grown in a test tube in the literal sense!!</p>",
+  "image": "/treatments/ivf.jpeg",
+  "steps": [
+    {
+      "title": "Counseling",
+      "description": "This is a 45-minute session which explains in detail all the steps, the success rates, the complications, cost of the cycle, etc."
+    },
+    {
+      "title": "Ovarian Stimulation",
+      "description": "We use gonadotropin injections to make multiple eggs grow in the ovary, a process called controlled ovarian stimulation. The wife has to come to the clinic at a particular time for daily injections or she can choose to self-administer the injections at home. Starting on day 5 or 6 of starting injection, another medicine called GnRH antagonist will also be added to prevent the eggs from getting released prematurely. So, you will be taking two shots in a day."
+    },
+    {
+      "title": "Trigger",
+      "description": "This is the name given to an injection which causes the eggs to be released from the follicles. It is given once the follicles reach a certain size, indicating the maturity of the eggs they contain."
+    },
+    {
+      "title": "Ovum Pick up",
+      "description": "This is the procedure by which the eggs are collected from the follicles under ultrasound guidance. It is done under anaesthesia."
+    },
+    {
+      "title": "Fertilisation",
+      "description": "<p>This is the step in which the eggs and sperm are joined in the lab, to produce embryos.<br> IVF - In Vitro Fertilisation - the collected eggs and prepared semen samples are incubated together in a culture dish under controlled conditions.<br> It can be done in couples where the husband's sperm counts are normal.<br> ICSI - Intracytoplasmic Sperm Injection - Here the embryologist takes one egg, selects one sperm, and injects it into the egg directly using a special instrument called the micromanipulator.<br> It is preferred in couples where the husband's sperm counts are very less or where we need to use surgically retrieved sperm as in men with azoospermia.<br> After injection, the culture dish with the injected egg is placed in the incubator. </p>"
+    },
+    {
+      "title": "Incubation",
+      "description": "<p>The embryos are allowed to develop over a period of three to five days inside the incubator.<br> We check for fertilization, i.e., check whether embryo development has started 12-16 hours after fertilization and this is called the “fert check”.<br> The embryos are allowed to divide further and checked on the day 3 or/and day 5 of culture. </p>"
+    },
+    {
+      "title": "Embryo Transfer",
+      "description": "<p>This is the process by which the selected embryos are replaced into the cavity of the uterus in a simple procedure which is almost similar to an IUI.<br> It is done under ultrasound guidance and does not require any anesthesia in most instances. </p>"
+    },
+    {
+      "title": "Luteal Phase support",
+      "description": "<p>This is the 15 day waiting period after embryo transfer when medications and injections may be given on a daily basis to support the growing embryo.<br> A beta hCG blood test is done at the end of this period to find out the outcome of the IVF cycle.</p>"
+    },
+    {
+      "title": "Cryopreservation",
+      "description": "<p>As we typically replace only a maximum of 2 to 3 day 3 embryos or a maximum of 1 to 2 day 5 embryos at a time, the remaining excess embryos are frozen by a process called vitrification, for future use.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Who can have an IUI done?",
+      "answer": "<p>IUI may be offered to the couple if</p><p>a.the wife has at least one patent Fallopian tube</p><p>b.the husband has a sperm count of at least minimum of 5 mill motile sperms after processing</p>"
+    },
+    {
+      "question": "How many cycles of IUI can be tried?",
+      "answer": "<p>Though there is no strict limit to the actual number of IUI cycles which may be done, the usual practice is to offer 3 to 6 IUI cycles depending on the couple's history and age. This is because the chances of success usually do not increase beyond this.</p>"
+    },
+    {
+      "question": "Will IUI help if my husband's counts are very low?",
+      "answer": "<p>IUI is a process in which the semen sample is processed to separate the fastest moving sperms as well as filter out the unwanted debris in the semen.</p><p>The count or number of sperms is not increased in any manner. Hence, if the sperm count is very less or nil, IUI is not the best treatment option as the pregnancy rates in such cases will be very low.</p>"
+    },
+    {
+      "question": "What is the process for using donor sperm?",
+      "answer": "<p>Donor sperm IUI is an option offered to couples where the husband's counts are very less or nil and they do not want to go for or cannot afford IVF. The process is basically the same except that we use sperm samples procured from accredited sperm banks, which we inseminate in the cavity of the uterus. Informed consent taken from both husband and wife is a MUST. We usually match either of the partner's blood groups when asking for a sample but in case a request is made, certain physical characteristics like height, eye colour, hair colour, etc. can also be matched.</p>"
+    },
+    {
+      "question": "Should I take leave from work after doing an IUI?",
+      "answer": "<p>An IUI is a simple procedure and there is no need to take leave post-procedure. You can continue doing your regular work and follow your regular routine.</p>"
+    },
+    {
+      "question": "Should I take any special precautions or more rest after doing an IUI?",
+      "answer": "<p>You can continue with your usual regular daily routine after doing an IUI. You can avoid any unusual strain which is not part of your regular routine like lifting very heavy weights for example.</p>"
+    },
+    {
+      "question": "Can I exercise after doing an IUI?",
+      "answer": "<p>Yes, you can continue with your regular exercise routine post-procedure. High impact activities like jumping, skipping, etc may be avoided if they are not being practised regularly by you.</p>"
+    },
+    {
+      "question": "Can I have sex after doing an IUI?",
+      "answer": "<p>Yes, you can continue with your regular sexual life after doing an IUI.</p>"
+    },
+    {
+      "question": "Should we do single or double insemination?",
+      "answer": "<p>Single insemination 36 to 38 hours post HCG injection, is sufficient in most couples unless the husband's counts are subnormal in which case, double insemination may provide extra benefit.</p>"
+    },
+    {
+      "question": "What is the success rate of an IUI?",
+      "answer": "<p>World over the success rates of an IUI cycle is in the range of 8 to 14% per month.</p>"
+    },
+    {
+      "question": "What can increase the chances of success with an IUI?",
+      "answer": "<p>Success rates are better</p><ul><li>when the age of the wife is lesser.</li><li>When gonadotropin injections are given to grow 2 to 3 eggs rather than.</li><li>When the husband's semen parameters are good.</li></ul>"
+    },
+    {
+      "question": "What diet should I follow after doing an IUI?",
+      "answer": "<p>There is no special diet needed after an IUI. You are advised to continue with regular healthy eating habits such as,</p><ul><li>Avoiding sugar and junk food.</li><li>Including more fruits and vegetables.</li><li>Including more protein in the diet.</li></ul>"
+    },
+    {
+      "question": "How can I improve my sperm count and motility?",
+      "answer": "<p>A few measures which may help are:</p><ul><li>Avoid Hot water baths, wearing tight underwear at home, using laptop directly on lap, etc. which can increase the temperature of the scrotum.</li><li>Drink plenty of fluids.</li><li>Have a healthy diet.</li><li>Stop smoking.</li><li>Avoid excessive alcohol intake</li><li>Try to reduce mental stress</li><li>Maintain normal body weight</li></ul>"
+    }
+  ]
+}
