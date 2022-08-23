@@ -15,6 +15,8 @@ export const InstagramPost = () => {
         <div className="position-relative rounded-3 overflow-hidden mb-lg-3">
           <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center zindex-5">
             <a
+              target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/drpriyakalyani.official/"
               className="btn btn-video btn-icon btn-xl stretched-link bg-white"
             >
@@ -22,10 +24,7 @@ export const InstagramPost = () => {
             </a>
           </div>
           <span className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-35"></span>
-          <img
-            src="http://kanaafertility.com/assets/images/baby-college.jpg"
-            alt="Cover image"
-          />
+          <img src="/assets/img/baby-collage.jpeg" alt="Cover image" />
         </div>
       </div>
     </section>
