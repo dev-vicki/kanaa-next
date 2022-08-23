@@ -103,6 +103,30 @@
               "name": "Embryo"
             }
           ]
+        },
+        {
+          "name": "Holistic Women Health",
+          "slug": "holistic",
+          "subItems": [
+            {
+              "name": "Lifestyle coaching"
+            },
+            {
+              "name": "Sexual Health"
+            },
+            {
+              "name": "Physiotheraphy"
+            },
+            {
+              "name": "Yoga"
+            },
+            {
+              "name": "Stress Reduction"
+            },
+            {
+              "name": "Strength Training"
+            }
+          ]
         }
       ]
     }

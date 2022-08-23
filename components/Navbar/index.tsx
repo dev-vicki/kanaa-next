@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { slugify } from '../../utils';
+import { items } from '../../data/navbar.json';
 interface Props {
   items: Array<{
     name: string;
@@ -11,7 +12,7 @@ interface Props {
     }>;
   }>;
 }
-export const Navbar = ({ items }: Props) => {
+export const Navbar = () => {
   return (
     //   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
     <header className="header navbar navbar-expand-lg bg-light">
@@ -60,7 +61,7 @@ export const Navbar = ({ items }: Props) => {
                                 <li key={subItem.name}>
                                   <a
                                     href={`/services/${slugify(
-                                      item.name
+                                      item.slug ?? item.name
                                     )}/${slugify(subItem.name)}`}
                                     className="dropdown-item py-1"
                                   >

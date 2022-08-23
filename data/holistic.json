@@ -1,0 +1,35 @@
+{
+  "title": "Holistic Approach to Women's Health",
+  "items": [
+    {
+      "title": "Lifestyle coaching",
+      "description": "<p>Hello, congratulations on choosing to work towards a healthier “you” and welcome to our lifestyle program. Quite often nowadays we see many medical problems, the root cause of which can be addressed only with your cooperation and effort. Just by prescribing medicines, may treat just the complaints you have, without correcting the root cause. </p> <p> The pressure to have a baby in our society places a lot of expectations on the couple. Infertility, miscarriages, high-risk pregnancies are all on the rise compared to the previous generation. Let us join hands to gain knowledge, work together and change what we can in our daily lives, to help us have the best possible reproductive outcomes. </p> <p> We just want you to keep an open mind and be ready to unlearn a few age-old practices and habits, to make a switch over to what is relevant in today’s world!. </p>",
+      "image": "/assets/img/holistic/lifestyle.jpeg"
+    },
+    {
+      "title": "Sexual Health",
+      "description": "<p>Sex still remains a taboo in most places in our country with the result that most women and even men have no knowledge whatsoever about what needs to happen in the bedroom to have a pleasurable experience for both partners. Whatever little is known is from stories narrated from friend's experiences or by seeing porn which is hardly realistic. Sex is often looked at as just a means to get pregnant and then sidelined or seen as something to be tolerated rarely in many marriages. </p> <p> In today's highly busy urban lifestyle, there is a lack of time as well as inclination to have sex and problems like lack of interest in both partners, pain during sex, difficulty in getting an erection or sustaining one, etc are seen very commonly. </p> <p> A sexual therapist or sexologist can be of great help in addressing your concerns and helping you overcome them as well as give you resources to educate yourselves about this seldom discussed topic. </p>",
+      "image": "/assets/img/holistic/sexual-life.jpeg"
+    },
+    {
+      "title": "Physiotheraphy",
+      "description": "<p> A lot of common problems women face like chronic back pain, knee joint pain, pelvic floor muscle weakness, diastasis recti, lack of core strength, etc need the help of a physiotherapist to assess the cause and suggest strengthening exercises as well as corrective measures. </p> <p> There is no point in giving just painkillers for chronic pain without treating the cause. Our team of experienced lady physiotherapists will be able to examine you and guide you towards the path of leading a pain-free better quality of life. </p>",
+      "image": "/assets/img/holistic/pelvic-floor.jpeg"
+    },
+    {
+      "title": "Yoga",
+      "description": "<p>A lot of problems faced by women are due to hormonal dysfunction meaning that the delicate balance of hormones needed to keep our systems functioning smoothly is thrown out of sync. Yoga is an invaluable addition to your regular lifestyle which helps in correcting this imbalance to a large extent along with other lifestyle measures. </p> <p> Our well-experienced yoginis will be able to guide you on this path suggesting specific asanas which will be beneficial in your case along with regular yoga practice and breathing exercises. </p>",
+      "image": "/assets/img/holistic/yoga.jpeg"
+    },
+    {
+      "title": "Stress Reduction",
+      "description": "<p>In today's day and age, stress is a ubiquitous part of everyone's life in one form or the other. It is good that issues related to mental health are also being brought to the forefront and given importance. </p> <p> Stress can also lead to many physical problems like acidity, bloating, indigestion, lack of sleep, headaches, etc. Counseling with our experienced psychologists will definitely help in relieving your stress levels by having a let out for pent-up emotions as well as by giving you techniques to help reduce your response to stress. </p>",
+      "image": "/assets/img/holistic/stress.jpeg"
+    },
+    {
+      "title": "Strength Training",
+      "description": "<p>Strength or resistance training is a form of exercise which conditions different groups of muscles by making them work against resistance. There is a total lack of knowledge about the importance of strength training in women's health. This is the best practice for you to become stronger, fitter, lose fat and gain lean muscle. And NO, it will not make you muscular!! Women tend to lose bone density as we age and this is an important tool which will help reduce this loss. </p> <p> Learn about how to incorporate strength training in your regular exercise routine in this session. Our senior trainer will examine you, assess your current fitness levels and then suggest exercise which can be easily practiced at home </p>",
+      "image": "/assets/img/holistic/strength.jpeg"
+    }
+  ]
+}

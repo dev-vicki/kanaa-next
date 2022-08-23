@@ -9,29 +9,29 @@ import { WhyChooseKanaa } from '../sections/why-choose-kanaa';
 import { WhyChooseUs } from '../sections/why-choose-us';
 import { HeroSlider } from '../components/HeroSlider';
 
-export async function getStaticProps(context: GetStaticPropsContext) {
-  try {
-    const jsonDirectory = path.join(process.cwd(), '/data');
-    const fileContents = await fs.readFile(
-      jsonDirectory + '/navbar.json',
-      'utf8'
-    );
-    const objectData = JSON.parse(fileContents);
+// export async function getStaticProps(context: GetStaticPropsContext) {
+//   try {
+//     const jsonDirectory = path.join(process.cwd(), '/data');
+//     const fileContents = await fs.readFile(
+//       jsonDirectory + '/navbar.json',
+//       'utf8'
+//     );
+//     const objectData = JSON.parse(fileContents);
 
-    return {
-      props: { navbar: objectData },
-    };
-  } catch (e) {
-    console.log(e);
-    return {
-      props: {
-        navbar: {
-          items: [],
-        },
-      },
-    };
-  }
-}
+//     return {
+//       props: { navbar: objectData },
+//     };
+//   } catch (e) {
+//     console.log(e);
+//     return {
+//       props: {
+//         navbar: {
+//           items: [],
+//         },
+//       },
+//     };
+//   }
+// }
 
 const Home: NextPage<{ navbar: any }> = ({ navbar }) => {
   return (
@@ -40,7 +40,7 @@ const Home: NextPage<{ navbar: any }> = ({ navbar }) => {
     <main className="page-wrapper">
       {/* <Script src="/assets/js/bootstrap.min.js" />
       <Script src="/assets/js/theme.min.js" /> */}
-      <Navbar items={navbar.items} />
+      <Navbar />
       <HeroSlider />
       <AboutKanaa />
       <WhyChooseUs />
