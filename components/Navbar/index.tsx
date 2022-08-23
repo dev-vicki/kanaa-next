@@ -1,8 +1,20 @@
-export const Navbar = () => {
+import Link from 'next/link';
+import { slugify } from '../../utils';
+interface Props {
+  items: Array<{
+    name: string;
+    items?: Array<{
+      name: string;
+      subItems: Array<{
+        name: string;
+      }>;
+    }>;
+  }>;
+}
+export const Navbar = ({ items }: Props) => {
   return (
-    // <!-- Navbar -->
     //   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
-    <header className="header navbar navbar-expand-lg bg-light navbar-sticky">
+    <header className="header navbar navbar-expand-lg bg-light">
       <div className="container px-3">
         <a href="index.html" className="navbar-brand pe-3">
           <img
@@ -23,77 +35,47 @@ export const Navbar = () => {
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item dropdown">
-                <a
-                  href="#"
-                  className="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
+              {items.map((mainItem) => (
+                <li
+                  key={mainItem.name}
+                  className={`nav-item ${mainItem.items ? 'dropdown' : ''}`}
                 >
-                  Services
-                </a>
-                <div className="dropdown-menu">
-                  <div className="d-lg-flex pt-lg-3">
-                    <div className="mega-dropdown-column">
-                      <h6 className="px-3 mb-2">Treatments</h6>
-                      <ul className="list-unstyled mb-3">
-                        <li>
-                          <a
-                            href="about-v1.html"
-                            className="dropdown-item py-1"
-                          >
-                            Ovulation Induction
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="about-v2.html"
-                            className="dropdown-item py-1"
-                          >
-                            IUI
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="about-v2.html"
-                            className="dropdown-item py-1"
-                          >
-                            IVF & ICSI
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="about-v2.html"
-                            className="dropdown-item py-1"
-                          >
-                            IUI
-                          </a>
-                        </li>
-                      </ul>
+                  <a
+                    href={mainItem.items ? '#' : slugify(mainItem.name)}
+                    className={`nav-link ${
+                      mainItem.items ? 'dropdown-toggle' : ''
+                    }`}
+                    data-bs-toggle="dropdown"
+                  >
+                    {mainItem.name}
+                  </a>
+                  {mainItem.items ? (
+                    <div className="dropdown-menu">
+                      <div className="d-lg-flex pt-lg-3">
+                        {mainItem.items.map((item) => (
+                          <div key={item.name} className="mega-dropdown-column">
+                            <h6 className="px-3 mb-2">{item.name}</h6>
+                            <ul className="list-unstyled mb-3">
+                              {item.subItems.map((subItem) => (
+                                <li key={subItem.name}>
+                                  <a
+                                    href={`/services/${slugify(
+                                      item.name
+                                    )}/${slugify(subItem.name)}`}
+                                    className="dropdown-item py-1"
+                                  >
+                                    {subItem.name}
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                    <div className="mega-dropdown-column">
-                      <h6 className="px-3 mb-2">360 Women Health care</h6>
-                      <ul className="list-unstyled mb-3">
-                        <li>
-                          <a
-                            href="holistic.html"
-                            className="dropdown-item py-1"
-                          >
-                            Lifestyle coaching
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="portfolio-list.html"
-                            className="dropdown-item py-1"
-                          >
-                            Sexual Health
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </li>
+                  ) : null}
+                </li>
+              ))}
               <li className="nav-item dropdown">
                 <a
                   href="#"
@@ -175,15 +157,12 @@ export const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a
-          href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/"
-          className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
-          <i className="bx bx-paper-plane fs-5 lh-1 me-1"></i>
-          &nbsp;Contact us
-        </a>
+        <Link href="/contact-us">
+          <a className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex">
+            <i className="bx bx-paper-plane fs-5 lh-1 me-1"></i>
+            &nbsp;Contact us
+          </a>
+        </Link>
       </div>
     </header>
   );

@@ -9,10 +9,13 @@ export default function Document() {
           href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          media="screen"
+          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
       </Head>
       <body>
-        <Main />
-        <NextScript />
         <script
           src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
           integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -25,6 +28,12 @@ export default function Document() {
           crossOrigin="anonymous"
           async
         />
+        <script
+          src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"
+          async
+        />
+        <Main />
+        <NextScript />
         <script src="/assets/js/theme.min.js" async />
       </body>
     </Html>

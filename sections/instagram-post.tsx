@@ -17,7 +17,6 @@ export const InstagramPost = () => {
             <a
               href="https://www.instagram.com/drpriyakalyani.official/"
               className="btn btn-video btn-icon btn-xl stretched-link bg-white"
-              data-bs-toggle="video"
             >
               <i className="bx bx-play"></i>
             </a>
