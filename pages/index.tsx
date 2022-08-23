@@ -1,7 +1,6 @@
 import type { GetStaticPropsContext, NextPage } from 'next';
 import { promises as fs } from 'fs';
 import path from 'path';
-import Script from 'next/script';
 import { Footer } from '../components/Footer';
 import { Navbar } from '../components/Navbar';
 import { AboutKanaa } from '../sections/about-kanaa';

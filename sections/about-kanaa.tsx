@@ -14,7 +14,7 @@ export const AboutKanaa = () => (
           href="about-v2.html"
           className="btn btn-primary shadow-primary btn-lg"
         >
-          More About Us
+          Know more
         </a>
         <div className="d-flex justify-content-center justify-content-md-between pt-4 pt-lg-5">
           <div className="mx-3 mx-md-0">

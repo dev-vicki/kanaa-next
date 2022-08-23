@@ -1,0 +1,16 @@
+{
+  "items": {
+    "facebook": {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/bloomchennai"
+    },
+    "instagram": {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/bloomchennaikanaa/"
+    },
+    "youTube": {
+      "name": "YouTube",
+      "link": "https://www.youtube.com/channel/UCsbaB6lMVJPpuy2sqeldcGg"
+    }
+  }
+}

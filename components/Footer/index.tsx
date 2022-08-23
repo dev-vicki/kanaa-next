@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import socialNetowrks from '../../data/social-networks.json';
+
 export const Footer = () => {
   return (
     <footer className="footer dark-mode bg-dark pt-5 pb-4 pb-lg-5">
@@ -54,12 +57,11 @@ export const Footer = () => {
                 >
                   <ul className="nav flex-column pb-lg-1 mb-lg-3">
                     <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Home
-                      </a>
+                      <Link href={'/'}>
+                        <a className="nav-link d-inline-block px-0 pt-1 pb-2">
+                          Home
+                        </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
                       <a
@@ -78,12 +80,11 @@ export const Footer = () => {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        About Us
-                      </a>
+                      <Link href="/about-us">
+                        <a className="nav-link d-inline-block px-0 pt-1 pb-2">
+                          About Us
+                        </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
                       <a
@@ -121,7 +122,7 @@ export const Footer = () => {
                     className="d-block text-dark dropdown-toggle d-lg-none py-2"
                     data-bs-toggle="collapse"
                   >
-                    Socials
+                    Social
                   </a>
                 </h6>
                 <div
@@ -130,38 +131,16 @@ export const Footer = () => {
                   data-bs-parent="#footer-links"
                 >
                   <ul className="nav flex-column mb-2 mb-lg-0">
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Facebook
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        LinkedIn
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Twitter
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Instagram
-                      </a>
-                    </li>
+                    {Object.values(socialNetowrks.items).map((item) => (
+                      <li key={item.name} className="nav-item">
+                        <a
+                          href={item.link}
+                          className="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >
+                          {item.name}
+                        </a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>

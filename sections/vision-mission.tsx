@@ -35,18 +35,12 @@ export const VisionAndMission = () => {
               and secrecy surrounding fertility and help women understand their
               bodies better.
             </p>
-            <img
+            {/* <img
               src="assets/img/about/clutch-dark.png"
               className=" d-dark-mode-none"
               width="175"
               alt="Clutch"
-            />
-            <img
-              src="assets/img/about/clutch-light.png"
-              className="d-none d-dark-mode-block"
-              width="175"
-              alt="Clutch"
-            />
+            /> */}
             <div className="row row-cols-3 pt-4 pt-md-5 mt-2 mt-xl-4">
               <div className="col">
                 <h3 className="h2 mb-2">2,480</h3>
@@ -69,32 +63,7 @@ export const VisionAndMission = () => {
             </div>
           </div>
           <div className="col-lg-6 mt-xl-3 pt-5 pt-lg-4">
-            <div className="row row-cols-2 gx-3 gx-lg-4">
-              <div className="col pt-lg-5 mt-lg-1">
-                <img
-                  src="assets/img/about/hero/01.jpg"
-                  className="d-block rounded-3 mb-3 mb-lg-4"
-                  alt="Image"
-                />
-                <img
-                  src="assets/img/about/hero/02.jpg"
-                  className="d-block rounded-3"
-                  alt="Image"
-                />
-              </div>
-              <div className="col">
-                <img
-                  src="assets/img/about/hero/03.jpg"
-                  className="d-block rounded-3 mb-3 mb-lg-4"
-                  alt="Image"
-                />
-                <img
-                  src="assets/img/about/hero/04.jpg"
-                  className="d-block rounded-3"
-                  alt="Image"
-                />
-              </div>
-            </div>
+            <div className="row row-cols-2 gx-3 gx-lg-4"></div>
           </div>
         </div>
       </div>
