@@ -2,15 +2,18 @@ import Image from 'next/image';
 
 export const WhyChooseUs = () => {
   return (
-    <section className="bg-secondary pb-md-2 pb-lg-5">
+    <section className=" pb-md-2 pb-lg-5">
       <div
         className="d-none d-lg-block"
         style={{ marginTop: '-60px', paddingTop: '60px' }}
       ></div>
       <div className="container pb-4 pt-5">
-        <h2 className="h1 text-center pt-1 pt-xl-2 mb-4">Why Choose Us?</h2>
+        <h2 className="h1 text-center pt-1 pt-xl-2 mb-4">
+          See What Makes Us Different
+        </h2>
         <p className="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">
-          Our medical center provides a wide range of fertility care services.
+          Your best care begins here. Let us break the stigma and misinformation
+          surrounding fertility
         </p>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 pb-xl-3">
           <div className="col text-center border-end">

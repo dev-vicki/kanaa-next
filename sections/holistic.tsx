@@ -9,7 +9,6 @@ const TabId = (slug: string) => `${slug}-tab`;
 export function Holistic() {
   const { query } = useRouter();
   const { slug } = query;
-  console.log(slug);
 
   return (
     <section className="container pt-2 pb-2 mt-3 mb-5 mt-sm-4 mt-xl-3">

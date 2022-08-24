@@ -19,7 +19,6 @@ export async function getStaticProps(context: GetStaticPropsContext) {
       props: { navbar: objectData },
     };
   } catch (e) {
-    console.log(e);
     return {
       props: {
         navbar: {

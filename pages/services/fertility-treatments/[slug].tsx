@@ -28,7 +28,6 @@ const treatmentsDirectory = path.join(process.cwd(), '/data/treatments');
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const filenames = await fs.readdir(treatmentsDirectory);
-  console.log({ filenames });
 
   return {
     paths: filenames.map((filename) => ({
@@ -60,7 +59,6 @@ export const getStaticProps: GetStaticProps<{ data: Treatment }> = async (
       props: { data: objectData },
     };
   } catch (e) {
-    console.log(e);
     return {
       notFound: true,
     };
@@ -68,8 +66,6 @@ export const getStaticProps: GetStaticProps<{ data: Treatment }> = async (
 };
 
 const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  console.log({ data });
-
   return (
     <main className="page-wrapper">
       <Navbar />

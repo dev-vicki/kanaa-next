@@ -17,7 +17,7 @@ interface Props {
 export const Navbar = () => {
   return (
     //   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
-    <header className="header navbar navbar-expand-lg bg-light">
+    <header className="header navbar navbar-expand-lg position-absolute navbar-sticky">
       <div className="container px-3">
         <Link href="/">
           <a className="navbar-brand pe-3">
