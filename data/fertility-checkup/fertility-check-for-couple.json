@@ -1,0 +1,17 @@
+{
+  "title": "Fertility check for couple",
+  "slug": "fertility-check-for-couple",
+  "description": "<p>If you have been trying unsuccessfully to get pregnant for at least a year or for six months if you are over 35 years, then you can opt for our couple's fertility health check. </p>",
+  "image": "/assets/img/fertility-checkup/for-couple.jpg",
+  "expect": "<p>We expect both the partners to attend together as far as possible.<br> We first sit and have a comprehensive questionnaire filled out about various aspects of your health and lifestyle.<br> This is followed by a physical examination of both the partners.</p>",
+  "tests": [
+    "basic blood work for both like CBC, sugars, lipids, renal function, serology etc.",
+    "Hormonal evaluation like thyroid function for both partners.",
+    "Checking the ovarian reserve in the lady with FSH, LH and AMH levels.",
+    "Ultrasound pelvis by transvaginal route.",
+    "Semen analysis for the husband.",
+    "Tubal patency test by means of an HSG.",
+    "Other tests like Prolactin, testosterone etc. depending on the clinical scenario may be suggested."
+  ],
+  "pages": "saas v2, podcast"
+}
