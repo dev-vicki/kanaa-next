@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "Trust",
+      "description": "We believe in being upfront about the problems you face and giving realistic treatment success rates which varies from couple to couple.",
+      "icon": "check-shield"
+    },
+    {
+      "title": "Kindness",
+      "description": "We believe in giving you enough time and patient listening for you to open up about your problems.",
+      "icon": "donate-heart"
+    },
+    {
+      "title": "Approachability",
+      "description": "We aim to be non judgemental and adopt a friendly approach rather than a traditional strict doctor patient relationship.",
+      "icon": "conversation"
+    },
+    {
+      "title": "Affordability",
+      "description": "We believe in keeping our costs affordable so that we can reach and help many more couples in need.",
+      "icon": "money"
+    },
+    {
+      "title": "Confidentiality",
+      "description": "This is sacred as far as we are concerned and we promise to keep all details of what you share with us as well as details about treatment only between us and you.",
+      "icon": "lock-alt"
+    },
+    {
+      "title": "Learning",
+      "description": "In the rapidly evolving and changing landscape of fertility care,we constantly keep updating and educating ourselves about the latest developments world over.",
+      "icon": "bulb"
+    },
+    {
+      "title": "Transparency",
+      "description": "We can assure you that, with us, you will always know each and every step of any treatment you undertake, including the financial aspect. We have elaborate counseling sessions which help to clear all doubts which the couple may have.",
+      "icon": "user-voice"
+    },
+    {
+      "title": "Passion",
+      "description": "Last but not the least,we are a team extremely passionate about what we do and this helps us give our best to each and every couple who come to us with hope and trust.",
+      "icon": "heart"
+    }
+  ]
+}
