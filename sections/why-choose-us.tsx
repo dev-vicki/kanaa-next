@@ -21,12 +21,16 @@ export const WhyChooseUs = () => {
               className="card d-flex align-items-center justify-content-center border-0 rounded-circle shadow-sm p-3 mx-auto mb-4"
               style={{ height: 64, width: 64 }}
             >
-              <Image
+              {/* <Image
                 src="/assets/img/why-choose-us/1.png"
                 width={32}
                 height={32}
                 alt="Icon"
-              />
+              /> */}
+              <i
+                className={`bx bx-trophy fs-2 text-gradient-primary`}
+                style={{ padding: '0.375rem' }}
+              ></i>
             </div>
             <h3 className="h5 mb-2 mb-lg-0">
               Results that speak for themselves
@@ -37,12 +41,16 @@ export const WhyChooseUs = () => {
               className="card d-flex align-items-center justify-content-center border-0 rounded-circle shadow-sm p-3 mx-auto mb-4"
               style={{ height: 64, width: 64 }}
             >
-              <Image
+              {/* <Image
                 src="/assets/img/why-choose-us/2.png"
                 width={32}
                 height={32}
                 alt="Icon"
-              />
+              /> */}
+              <i
+                className={`bx bxs-zap fs-2 text-gradient-primary`}
+                style={{ padding: '0.375rem' }}
+              ></i>
             </div>
             <h3 className="h5 mb-2 mb-lg-0">
               Decades of experience, at your service
@@ -53,12 +61,16 @@ export const WhyChooseUs = () => {
               className="card d-flex align-items-center justify-content-center border-0 rounded-circle shadow-sm p-3 mx-auto mb-4"
               style={{ height: 64, width: 64 }}
             >
-              <Image
+              {/* <Image
                 src="/assets/img/why-choose-us/3.png"
                 width={32}
                 height={32}
                 alt="Icon"
-              />
+              /> */}
+              <i
+                className={`bx bx-trip fs-2 text-gradient-primary`}
+                style={{ padding: '0.375rem' }}
+              ></i>
             </div>
             <h3 className="h5 mb-2 mb-lg-0">
               With you, at every step of the way
@@ -69,12 +81,16 @@ export const WhyChooseUs = () => {
               className="card d-flex align-items-center justify-content-center border-0 rounded-circle shadow-sm p-3 mx-auto mb-4"
               style={{ height: 64, width: 64 }}
             >
-              <Image
+              {/* <Image
                 src="/assets/img/why-choose-us/4.png"
                 width={32}
                 height={32}
                 alt="Icon"
-              />
+              /> */}
+              <i
+                className={`bx bx-male-female fs-2 text-gradient-primary`}
+                style={{ padding: '0.375rem' }}
+              ></i>
             </div>
             <h3 className="h5 mb-2 mb-lg-0">
               Individualized Management Plan for each couple
