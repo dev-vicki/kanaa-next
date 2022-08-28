@@ -10,6 +10,7 @@ import { WhyChooseUs } from '../sections/why-choose-us';
 import { HeroSlider } from '../components/HeroSlider';
 import { Hero } from '../sections/hero';
 import { LandingServices } from '../sections/landing-services';
+import { OurDoctors } from '../sections/our-doctors';
 
 // export async function getStaticProps(context: GetStaticPropsContext) {
 //   try {
@@ -48,6 +49,7 @@ const Home: NextPage<{ navbar: any }> = ({ navbar }) => {
       <WhyChooseKanaa />
       <InstagramPost />
       <LandingServices />
+      <OurDoctors isMini={true} />
       <Footer />
     </main>
   );

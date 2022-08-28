@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { slugify } from '../../utils';
+import { Routes, slugify } from '../../utils';
 import navbarData from '../../data/navbar.json';
 import Image from 'next/image';
 const { items } = navbarData;
@@ -98,9 +98,9 @@ export const Navbar = () => {
                     </Link>
                   </li>
                   <li>
-                    <a href="#" className="dropdown-item">
-                      Our Doctors
-                    </a>
+                    <Link href={Routes.doctors}>
+                      <a className="dropdown-item">Our Doctors</a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
