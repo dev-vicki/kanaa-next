@@ -11,6 +11,7 @@ import { HeroSlider } from '../components/HeroSlider';
 import { Hero } from '../sections/hero';
 import { LandingServices } from '../sections/landing-services';
 import { OurDoctors } from '../sections/our-doctors';
+import { OnlineConsultation } from '../sections/online-consultation';
 
 // export async function getStaticProps(context: GetStaticPropsContext) {
 //   try {
@@ -49,6 +50,7 @@ const Home: NextPage<{ navbar: any }> = ({ navbar }) => {
       <WhyChooseKanaa />
       <InstagramPost />
       <LandingServices />
+      <OnlineConsultation />
       <OurDoctors isMini={true} />
       <Footer />
     </main>

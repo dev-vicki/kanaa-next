@@ -76,9 +76,11 @@ export function Hero() {
                 </li>
               </ul>
             </div>
-            <a href="#" className="btn btn-primary btn-lg shadow-primary">
-              Make an appointment
-            </a>
+            <Link href="/contact-us">
+              <a className="btn btn-primary btn-lg shadow-primary">
+                Make an appointment
+              </a>
+            </Link>
           </div>
         </div>
       </div>
