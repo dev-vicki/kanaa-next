@@ -1,24 +1,68 @@
 import Link from 'next/link';
+import { FormEventHandler, useRef } from 'react';
+import { Breadcrumbs } from '../components/Breadcrumbs/Breadcrumbs';
+
+interface FormElements extends HTMLFormControlsCollection {
+  name: HTMLInputElement;
+  mobile: HTMLInputElement;
+  date: HTMLInputElement;
+  time: HTMLInputElement;
+}
+
+interface ContactFormElement extends HTMLFormElement {
+  readonly elements: FormElements;
+}
 
 export function ContactForm() {
+  const formRef = useRef<ContactFormElement>(null);
+
+  const handleOnSubmit: FormEventHandler<ContactFormElement> = async (
+    event
+  ) => {
+    event.preventDefault();
+
+    // Get data from the form.
+    const data = {
+      name: event.currentTarget.elements.name.value,
+      mobile: event.currentTarget.elements.mobile.value,
+      date: event.currentTarget.elements.date.value,
+      time: event.currentTarget.elements.time.value,
+    };
+
+    // Send the data to the server in JSON format.
+    const JSONdata = JSON.stringify(data);
+
+    // API endpoint where we send form data.
+    const endpoint = '/api/contact';
+
+    // Form the request for sending data to the server.
+    const options = {
+      // The method is POST because we are sending data.
+      method: 'POST',
+      // Tell the server we're sending JSON.
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      // Body of the request is the JSON data we created above.
+      body: JSONdata,
+    };
+
+    // Send the form data to our forms API on Vercel and get a response.
+    const response = await fetch(endpoint, options);
+
+    // Get the response data from server as JSON.
+    // If server returns the name submitted, that means the form works.
+    const result = await response.json();
+    formRef.current?.reset();
+    alert(`Appointment booked for: ${result.data.name} on ${result.data.date}`);
+  };
   return (
     <section className="position-relative bg-secondary pt-5">
       <div className="container position-relative zindex-2 pt-5">
-        <nav className="pt-lg-4 pb-3 mb-2 mb-sm-3" aria-label="breadcrumb">
-          <ol className="breadcrumb mb-0">
-            <li className="breadcrumb-item">
-              <Link href="/">
-                <a>
-                  <i className="bx bx-home-alt fs-lg me-1"></i>Home
-                </a>
-              </Link>
-            </li>
-            <li className="breadcrumb-item active" aria-current="page">
-              Contact Us
-            </li>
-          </ol>
-        </nav>
-
+        <Breadcrumbs
+          className="pt-lg-4 pb-3 mb-2 mb-sm-3"
+          items={[{ href: '/contact-us', name: 'Contact Us' }]}
+        />
         <div className="row">
           <div className="col-xl-4 col-lg-5 pb-4 pb-sm-5 mb-2 mb-sm-0">
             <div className="pe-lg-4 pe-xl-0">
@@ -33,10 +77,13 @@ export function ContactForm() {
                     Please feel free to drop us a line. We will respond as soon
                     as possible.
                   </p>
-                  <div className="btn btn-link btn-lg px-0">
+                  <a
+                    href="mailto:shajansheriff@gmail.com"
+                    className="btn btn-link btn-lg px-0"
+                  >
                     Leave a message
                     <i className="bx bx-right-arrow-alt lead ms-2"></i>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div className="d-flex align-items-start">
@@ -49,10 +96,13 @@ export function ContactForm() {
                     Sit ac ipsum leo lorem magna nunc mattis maecenas non
                     vestibulum.
                   </p>
-                  <div className="btn btn-link btn-lg px-0">
+                  <a
+                    href="mailto:shajansheriff@gmail.com"
+                    className="btn btn-link btn-lg px-0"
+                  >
                     Send an application
                     <i className="bx bx-right-arrow-alt lead ms-2"></i>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -65,7 +115,12 @@ export function ContactForm() {
                 <h2 className="card-title pb-3 mb-4">
                   Get Online Consultation
                 </h2>
-                <form className="row g-4 needs-validation" noValidate>
+                <form
+                  ref={formRef}
+                  className="row g-4 needs-validation"
+                  noValidate
+                  onSubmit={handleOnSubmit}
+                >
                   <div className="col-12">
                     <label htmlFor="fn" className="form-label fs-base">
                       Full name
@@ -75,6 +130,7 @@ export function ContactForm() {
                       className="form-control form-control-lg"
                       id="fn"
                       required
+                      name="name"
                     />
                     <div className="invalid-feedback">
                       Please enter your full name!
@@ -82,41 +138,20 @@ export function ContactForm() {
                   </div>
                   <div className="col-12">
                     <label htmlFor="email" className="form-label fs-base">
-                      Email address
+                      Mobile number
                     </label>
                     <input
-                      type="email"
+                      type="number"
                       className="form-control form-control-lg"
-                      id="email"
+                      id="mobile"
                       required
+                      name="mobile"
                     />
                     <div className="invalid-feedback">
-                      Please provid a valid email address!
+                      Please provid a valid mobile number!
                     </div>
                   </div>
-                  <div className="col-12">
-                    <label htmlFor="specialist" className="form-label fs-base">
-                      Specialist
-                    </label>
-                    <select
-                      className="form-select form-select-lg"
-                      id="specialist"
-                      required
-                    >
-                      <option value="" selected disabled>
-                        Choose a specialist
-                      </option>
-                      <option value="Therapist">Therapist</option>
-                      <option value="Dentist">Dentist</option>
-                      <option value="Cardiologist">Cardiologist</option>
-                      <option value="Pediatrician">Pediatrician</option>
-                      <option value="Gynecologist">Gynecologist</option>
-                      <option value="Surgeon">Surgeon</option>
-                    </select>
-                    <div className="invalid-feedback">
-                      Choose a specialist from the list!
-                    </div>
-                  </div>
+
                   <div className="col-sm-6">
                     <label htmlFor="date" className="form-label fs-base">
                       Date
@@ -128,6 +163,7 @@ export function ContactForm() {
                       data-format='{"date": true, "datePattern": ["m", "d"]}'
                       placeholder="mm/dd"
                       required
+                      name="date"
                     />
                     <div className="invalid-feedback">Enter a date!</div>
                   </div>
@@ -141,7 +177,7 @@ export function ContactForm() {
                       id="time"
                       data-format='{"time": true, "timePattern": ["h", "m"]}'
                       placeholder="hh:mm"
-                      required
+                      name="time"
                     />
                     <div className="invalid-feedback">Enter a time!</div>
                   </div>
