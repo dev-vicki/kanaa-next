@@ -53,7 +53,7 @@ export function Hero() {
         <div className="row align-items-end">
           <div className="col-lg-6 d-none d-lg-block">
             <img
-              src="assets/img/you-me-baby.jpg"
+              src="/assets/img/you-me-baby.jpg"
               className="rellax rounded-3"
               alt="Image"
               data-rellax-speed="1.35"
@@ -91,7 +91,7 @@ export function Hero() {
         <div
           className="w-100 h-100 overflow-hidden bg-position-center bg-repeat-0 bg-size-cover"
           style={{
-            backgroundImage: 'url(assets/img/pregnant.jpg)',
+            backgroundImage: 'url(assets/img/hero-2.jpeg)',
             borderBottomLeftRadius: '.5rem',
           }}
         ></div>
