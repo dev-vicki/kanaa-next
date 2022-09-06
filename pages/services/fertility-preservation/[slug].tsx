@@ -2,9 +2,7 @@ import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next';
 import { promises as fs } from 'fs';
 import path from 'path';
 import Link from 'next/link';
-import { Navbar } from '../../../components/Navbar';
 import { Faq } from '../../../sections/faq';
-import { Footer } from '../../../components/Footer';
 import { Steps } from '../../../sections/steps';
 
 interface Faq {
@@ -67,8 +65,7 @@ export const getStaticProps: GetStaticProps<{ data: Preservation }> = async (
 
 const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
-    <main className="page-wrapper">
-      <Navbar />
+    <>
       <section className="container pt-4 pb-5 mb-lg-5">
         <nav className="d-md-none pb-3 mb-2 mb-lg-3" aria-label="breadcrumb">
           <ol className="breadcrumb mb-0">
@@ -135,8 +132,7 @@ const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
         {data.process ? <Steps title={data.process.title} items={data.process.steps} /> : null}
       </section>
       {data.faq ? <Faq items={data.faq} /> : null}
-      <Footer />
-    </main>
+    </>
   );
 };
 

@@ -67,8 +67,7 @@ export const getStaticProps: GetStaticProps<{ data: Treatment }> = async (
 
 const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
-    <main className="page-wrapper">
-      <Navbar />
+    <>
       <section className="container pt-4 pb-5 mb-lg-5">
         <nav className="d-md-none pb-3 mb-2 mb-lg-3" aria-label="breadcrumb">
           <ol className="breadcrumb mb-0">
@@ -135,8 +134,7 @@ const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
         {data.steps ? <Steps items={data.steps} /> : null}
       </section>
       {data.faq ? <Faq items={data.faq} /> : null}
-      <Footer />
-    </main>
+    </>
   );
 };
 

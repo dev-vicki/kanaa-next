@@ -2,18 +2,9 @@ import Link from 'next/link';
 import { Routes, slugify } from '../../utils';
 import navbarData from '../../data/navbar.json';
 import Image from 'next/image';
+
 const { items } = navbarData;
-interface Props {
-  items: Array<{
-    name: string;
-    items?: Array<{
-      name: string;
-      subItems: Array<{
-        name: string;
-      }>;
-    }>;
-  }>;
-}
+
 export const Navbar = () => {
   return (
     //   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->

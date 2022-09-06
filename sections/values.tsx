@@ -3,7 +3,6 @@ export function Values({
 }: {
   items: { title: string; description: string; icon: string }[];
 }) {
-  console.log(items);
 
   return (
     <section className="container pt-4 pb-5 py-lg-5">

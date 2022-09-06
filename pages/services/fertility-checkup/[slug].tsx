@@ -7,9 +7,6 @@ import {
 import dynamic from 'next/dynamic';
 import { promises as fs } from 'fs';
 import path from 'path';
-import Link from 'next/link';
-import { Navbar } from '../../../components/Navbar';
-import { Footer } from '../../../components/Footer';
 import { Breadcrumbs } from '../../../components/Breadcrumbs/Breadcrumbs';
 import {
   FertilityCheckup,
@@ -101,15 +98,13 @@ const Page: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   others,
 }) => {
   return (
-    <main className="page-wrapper">
-      <Navbar />
+    <>
       <div style={{ marginTop: 80 }} />
       <Breadcrumbs items={[]} />
       <FertilityCheckup data={data} />
       {data.tests && <TestSteps items={data.tests} />}
       <OtherCheckups items={others} />
-      <Footer />
-    </main>
+    </>
   );
 };
 
