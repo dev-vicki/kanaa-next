@@ -4,6 +4,7 @@ import { Holistic } from '../../../sections/holistic';
 const Page: NextPage = () => {
   return (
     <>
+      <div style={{ marginTop: 80 }} />
       <Holistic />
     </>
   );

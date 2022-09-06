@@ -18,7 +18,7 @@ export function FertilityCheckup({ data }: Props) {
     <section className="container mt-4 mb-5 pt-2 pb-lg-5">
       <div className="row gy-4">
         <div className="col-lg-7 col-md-6">
-          <img src={data.image} alt="Cover" className="rounded-3" />
+          <img src={data.image} alt={data.title} className="rounded-3" />
         </div>
         <div className="col-lg-5 col-md-6">
           <div className="ms-xl-5 ms-lg-4 ps-xxl-34">
