@@ -99,7 +99,8 @@ const Page: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 }) => {
   return (
     <>
-      <Breadcrumbs className='mt-1' items={[]} />
+      <div style={{ marginTop: 80 }} />
+      <Breadcrumbs items={[]} />
       <FertilityCheckup data={data} />
       {data.tests && <TestSteps items={data.tests} />}
       <OtherCheckups items={others} />
