@@ -1,0 +1,50 @@
+{
+  "title": "Freezing of Sperm",
+  "description": "<p>The semen sample of the male partner is processed to remove the debris and separate the fastest moving sperms which are then frozen in liquid nitrogen for future use.</p> <p> The semen sample of the male partner is processed to remove the debris and separate the fastest moving sperms which are then frozen in liquid nitrogen for future use. </p>",
+  "image": "",
+  "process": {
+    "title": "SPERM FREEZING PROCESS TIMELINE",
+    "steps": [
+      { "description": "Husband or the male partner is tested for sexually transmissible diseases like HbsAg, HIV and VDRL" },
+      { "description": "Asked to come to the lab with a sex-free or ejaculation free interval of 3 to 5 days." },
+      { "description": "Informed consent is taken." },
+      { "description": "Semen sample is collected by masturbation." },
+      { "description": "The sample is processed by the embryologist." },
+      { "description": "The processed sample is mixed with cryoprotectant and frozen in liquid nitrogen." }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What are the prerequisites for freezing semen?",
+      "answer": "<p>It is essential to do a serology test before going ahead with freezing the semen sample.</p> <p>He should be free from any active urogenital infection</p>"
+    },
+    {
+      "question": "How should semen be collected?",
+      "answer": "<p>Semen should be collected by masturbating into a wide-mouthed sterile container. Due to concerns with chances of infection, it should not be collected by sex and withdrawal method.</p>"
+    },
+    {
+      "question": "What should I do if I am unable to collect the sample at the hospital?",
+      "answer": "<p>This is a fairly common problem as it is not always possible to masturbate on demand, especially in a bathroom or hospital setting where there is a lack of privacy. Aids such as porn magazines, porn videos, use of a vibrator, or partner-assisted masturbation in a private room may be tried. If it still fails to give results, we advise the couple to bring the sample from home provided the hospital is reachable within 30 min of collection. In such cases, an additional consent stating that the sample brought from home is the husband's sample should be signed by both the partners.</p>"
+    },
+    {
+      "question": "How long can sperm be stored?",
+      "answer": "<p>There is no set time limit for the storage of sperm but the usual time frame stipulated is a period of ten years. Sperms have been reported to have been used successfully even 40 years after storage!</p>"
+    },
+    {
+      "question": "Will the sperms withstand the freeze and thaw process successfully?",
+      "answer": "<p>Semen parameters prior to freezing will determine the parameters post thawing. Sperm may undergo some damage during the freezing and thawing process due to osmotic or oxidative stress as well as the formation of intracellular ice crystals, which in turn may reduce the number of functionally normal sperms. The process of cryopreservation must hence be carefully controlled to minimize the risk of damage. One recent study reported that about 80% of sperms may survive the thaw.</p>"
+    },
+    {
+      "question": "What are the requirements for sperm donation according to the latest ART law?",
+      "answer": "<p>Sperm can be stored for the purpose of donation only in ART banks registered under the provisions of this act. Sperm can be donated only by a male in the age group of 21 to 55 years. It is stored after testing the person for diseases outlined in the guidelines. Sperm donated by one person can be used for only one commissioning couple in a lifetime and not more.</p>"
+    },
+    {
+      "question": "How many samples will I need to freeze?",
+      "answer": "<p>The number of samples we need to freeze will vary from person to person depending upon the reason for which it is done, the semen parameters, the treatment proposed as well as the family-building goals of the couple. One semen sample may give up to four vials of sperm of average counts. One vial is used for one IUI attempt typically. But for IVF/ICSI, as even one vial may contain millions of sperms, even one vial should be sufficient.</p>"
+    },
+    {
+      "question": "What is the time gap advised between giving samples?",
+      "answer": "<p>The usual time period we collect a sample is a sex-free or ejaculation-free gap of 3 to 5 days, so samples can be collected with a gap of few days between them. But having said that, it can be collected at shorter intervals also if time is of concern, as in starting treatment for cancer.</p>"
+    }
+  ]
+}

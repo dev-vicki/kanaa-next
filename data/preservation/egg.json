@@ -4,14 +4,14 @@
   "process": {
     "title": "Egg Freezing process timeline",
     "steps": [
-      "Day 2 -patient reports for basal scan and blood tests.",
-      "Gonadotropin injections are started on a daily basis.",
-      "Day 5-transvaginal ultrasound monitoring started.",
-      "Antagonist injection started on days 5-7 depending on scan findings.",
-      "Day 9-12-Trigger injection given once follicles reach mature size.",
-      "Ovum pick up done under anaesthesia",
-      "Collected mature eggs are frozen in liquid nitrogen for future use.",
-      "Result time!"
+      { "description": "Day 2 -patient reports for basal scan and blood tests." },
+      { "description": "Gonadotropin injections are started on a daily basis." },
+      { "description": "Day 5-transvaginal ultrasound monitoring started." },
+      { "description": "Antagonist injection started on days 5-7 depending on scan findings." },
+      { "description": "Day 9-12-Trigger injection given once follicles reach mature size." },
+      { "description": "Ovum pick up done under anaesthesia" },
+      { "description": "Collected mature eggs are frozen in liquid nitrogen for future use." },
+      { "description": "Result time!" }
     ]
   },
   "faq": [

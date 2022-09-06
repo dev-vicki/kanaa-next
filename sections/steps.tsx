@@ -1,12 +1,14 @@
 export function Steps({
+  title = "Treatment steps",
   items,
 }: {
+  title?: string;
   items: { title?: string; description: string }[];
 }) {
   return (
     <>
       <h2 className="h1 pt-md-2 pt-lg-4 pt-xl-5 pb-md-3 pb-lg-4 mb-md-4">
-        Treatment steps
+        {title}
       </h2>
       <div className="steps steps-sm">
         {items.map((step, index) => (
