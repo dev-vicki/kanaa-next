@@ -20,11 +20,16 @@ export function ContactForm() {
     event
   ) => {
     event.preventDefault();
+    const name = event.currentTarget.elements.name.value;
+    const mobile = event.currentTarget.elements.mobile.value;
+    if (!name || !mobile) {
+      return;
+    }
 
     // Get data from the form.
     const data = {
-      name: event.currentTarget.elements.name.value,
-      mobile: event.currentTarget.elements.mobile.value,
+      name,
+      mobile,
       date: event.currentTarget.elements.date.value,
       time: event.currentTarget.elements.time.value,
     };
@@ -54,7 +59,7 @@ export function ContactForm() {
     // If server returns the name submitted, that means the form works.
     const result = await response.json();
     formRef.current?.reset();
-    alert(`Appointment booked for: ${result.data.name} on ${result.data.date}`);
+    alert(`Thanks for booking an appointment: ${result.data.name} on ${result.data.date}`);
   };
   return (
     <section className="position-relative bg-secondary pt-5">
