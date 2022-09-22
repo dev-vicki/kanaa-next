@@ -13,10 +13,12 @@ export function Hero() {
               Fertility care Reimagined!
             </h3>
             <p className="fs-lg">
-              Don't know where to begin?{' '}
-              <a href="#" className="fw-medium">
-                Click here.
-              </a>
+              Don&apos;t know where to begin?{' '}
+              <Link href={"/contact-us"}>
+                <a className="fw-medium">
+                  Click here.
+                </a>
+              </Link>
             </p>
           </div>
           <div className="col-xl-5 col-lg-6 offset-xl-1 position-relative zindex-5 mb-5 mb-lg-0">
@@ -67,12 +69,12 @@ export function Hero() {
               </div>
               <ul className="list-unstyled ps-3 ps-lg-0 ps-xl-3 mb-0">
                 <li>
-                  <strong className="text-dark">Mon – Fri:</strong> 9:00 am –
-                  22:00 pm
+                  <strong className="text-dark">KK Nagar</strong>, Mon – Sat: 10 am –
+                  5 pm
                 </li>
                 <li>
-                  <strong className="text-dark">Sat – Sun:</strong> 9:00 am –
-                  20:00 pm
+                  <strong className="text-dark">RK Salai</strong>, Mon – Sat: 10 am –
+                  7 pm
                 </li>
               </ul>
             </div>

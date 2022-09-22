@@ -12,8 +12,8 @@ export function ContactCTA() {
             <h3 className="h4 fw-normal text-light opacity-75">
               Want to work with us? Let’s talk
             </h3>
-            <a href="mailto:email@example.com" className="display-6 text-light">
-              email@example.com
+            <a href="mailto:care.kanaa@gmail.com " className="display-6 text-light">
+              care.kanaa@gmail.com 
             </a>
             <div className="pt-md-5 pt-4 pb-md-2">
               <Link href="/contact-us">

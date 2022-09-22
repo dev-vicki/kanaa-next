@@ -37,7 +37,7 @@ export function Branches() {
                 className="bx bx-envelope text-primary fs-xl me-2"
                 style={{ marginTop: '.125rem' }}
               ></i>
-              kanaa.fertility@gmail.com
+              care.kanaa@gmail.com 
             </li>
             <li className="d-flex">
               <i
@@ -45,11 +45,8 @@ export function Branches() {
                 style={{ marginTop: '.125rem' }}
               ></i>
               <div>
-                <strong className="text-nav">Mon - Fri</strong>: 9:00 am - 22:00
-                am
-                <br />
-                <strong className="text-nav">Sat - Sun:</strong>: 9:00 am -
-                20:00 am
+                <strong className="text-nav">Mon - Sat</strong>: 10:00 am - 07:00
+                pm
               </div>
             </li>
           </ul>
@@ -90,11 +87,8 @@ export function Branches() {
                 style={{ marginTop: '.125rem' }}
               ></i>
               <div>
-                <strong className="text-nav">Mon - Fri</strong>: 9:00 am - 22:00
-                am
-                <br />
-                <strong className="text-nav">Sat - Sun:</strong>: 9:00 am -
-                20:00 am
+               <strong className="text-nav">Mon - Sat</strong>: 10:00 am - 05:00
+                pm
               </div>
             </li>
           </ul>

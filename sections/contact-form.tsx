@@ -83,7 +83,7 @@ export function ContactForm() {
                     as possible.
                   </p>
                   <a
-                    href="mailto:shajansheriff@gmail.com"
+                    href="mailto:care.kanaa@gmail.com "
                     className="btn btn-link btn-lg px-0"
                   >
                     Leave a message

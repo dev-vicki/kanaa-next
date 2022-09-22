@@ -10,33 +10,27 @@ export const Footer = () => {
             <div className="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
               Kanaa
             </div>
-            <p className="fs-sm text-light opacity-70 pb-lg-3 mb-4">
-              Proin ipsum pharetra, senectus eget scelerisque varius pretium
-              platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi
-              sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget
-              elementum dolor ullamcorper sodales ultrices eros.
+            <p className="fs-sm text-light opacity-70 pb-lg-3 mb-1">
+             <address>
+              <b>RK Salai Branch</b>
+              <br />
+                No. 40, Dr Radha Krishnan Salai, Chennai - 600004.
+                <br />
+                <a href='tel:+9104442648444'>
+                  +91 (044) 4264 8444
+                </a>
+              </address>
             </p>
-            <form className="needs-validation" noValidate>
-              <label htmlFor="subscr-email" className="form-label">
-                Subscribe to our newsletter
-              </label>
-              <div className="input-group">
-                <input
-                  type="email"
-                  id="subscr-email"
-                  className="form-control rounded-start ps-5"
-                  placeholder="Your email"
-                  required
-                />
-                <i className="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
-                <div className="invalid-tooltip position-absolute top-100 start-0">
-                  Please provide a valid email address.
-                </div>
-                <button type="submit" className="btn btn-primary">
-                  Subscribe
-                </button>
-              </div>
-            </form>
+            <p className="fs-sm text-light opacity-70 pb-lg-3 mb-4">
+            <address>
+            <b>K.K Nagar Branch</b>
+            <br />
+              No. 453/454, R.K. Shanmugam Salai, K.K. Nagar, <br /> Chennai - 600 078.
+              <br />
+              <a href='tel:+9104443530444'>+91 (044) 4353 0444 / 555 / 666 / 777 / 888</a>
+            </address>
+          </p>
+            
           </div>
           <div className="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
             <div id="footer-links" className="row">
@@ -63,22 +57,7 @@ export const Footer = () => {
                         </a>
                       </Link>
                     </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Services
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Case Studies
-                      </a>
-                    </li>
+                    
                     <li className="nav-item">
                       <Link href="/about-us">
                         <a className="nav-link d-inline-block px-0 pt-1 pb-2">
@@ -87,15 +66,22 @@ export const Footer = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
+                      <Link href="/doctors">
+                        <a className="nav-link d-inline-block px-0 pt-1 pb-2">
+                          Our doctors
+                        </a>
+                      </Link>
+                    </li>
+                    {/* <li className="nav-item">
                       <a
                         href="#"
                         className="nav-link d-inline-block px-0 pt-1 pb-2"
                       >
                         News &amp; Insights
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
-                  <ul className="nav flex-column mb-2 mb-lg-0">
+                  {/* <ul className="nav flex-column mb-2 mb-lg-0">
                     <li className="nav-item">
                       <a
                         href="#"
@@ -112,7 +98,7 @@ export const Footer = () => {
                         Privacy Policy
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
               <div className="col-xl-4 col-lg-3">
@@ -146,8 +132,8 @@ export const Footer = () => {
               </div>
               <div className="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                 <h6 className="mb-2">Contact Us</h6>
-                <a href="mailto:email@example.com" className="fw-medium">
-                  email@example.com
+                <a href="mailto:care.kanaa@gmail.com " className="fw-medium">
+                 care.kanaa@gmail.com 
                 </a>
               </div>
             </div>
