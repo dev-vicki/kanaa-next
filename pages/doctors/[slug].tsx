@@ -81,7 +81,6 @@ const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
           <div className="col-lg-6 mt-xl-3 pt-5 pt-lg-4"></div>
         </div>
       </div>
-      <Footer />
     </main>
   );
 };
