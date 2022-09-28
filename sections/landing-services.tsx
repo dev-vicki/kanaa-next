@@ -19,9 +19,9 @@ export function LandingServices() {
             services because they know we are the best. We offer complete health
             care to individuals with various health concerns.
           </p>
-          <a href="#" className="btn btn-primary shadow-primary btn-lg">
+          {/* <a href="#" className="btn btn-primary shadow-primary btn-lg">
             All services
-          </a>
+          </a> */}
         </div>
         <div className="col-xl-7 col-lg-8 offset-xl-1">
           <div className="row row-cols-1 row-cols-md-2">
