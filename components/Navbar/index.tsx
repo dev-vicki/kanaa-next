@@ -96,9 +96,11 @@ export const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
-                  A-Z of Fertility
-                </a>
+                <Link href={'/a-to-z'}>
+                  <a className="nav-link">
+                    A-Z of Fertility
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
