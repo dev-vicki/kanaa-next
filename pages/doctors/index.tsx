@@ -18,7 +18,6 @@ const Page: NextPage = () => {
         <OurDoctors />
       </div>
       <ContactCTA />
-      <Footer />
     </main>
   );
 };

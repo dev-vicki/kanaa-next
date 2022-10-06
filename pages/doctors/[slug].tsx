@@ -93,7 +93,6 @@ const Page = ({ data }: InferGetStaticPropsType<typeof getStaticProps>) => {
           </div>
         </div>
       </div>
-      <Footer />
     </main>
   );
 };

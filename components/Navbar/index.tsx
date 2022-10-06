@@ -93,23 +93,19 @@ export const Navbar = () => {
                       <a className="dropdown-item">Our Doctors</a>
                     </Link>
                   </li>
-                  <li>
-                    <a href="#" className="dropdown-item">
-                      Press
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="dropdown-item">
-                      Careers
-                    </a>
-                  </li>
                 </ul>
               </li>
               <li className="nav-item">
+
             <Link href="/a-to-z"> 
             <a className="nav-link"> 
                   A-Z of Fertility
                 </a>
+
+                <Link href={'/a-to-z'}>
+                  <a className="nav-link">
+                    A-Z of Fertility
+                  </a>
                 </Link>
               </li>
             </ul>
