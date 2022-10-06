@@ -1,0 +1,54 @@
+{
+  "title": "A",
+  "items": [
+    {
+      "title": "Anovulation",
+      "description": "<p>When the ovaries do not release an egg during a menstrual cycle.</p>",
+      "image": "",
+      "sections": [
+        {
+          "title": "Classification:",
+          "description": "<ul> <li>Type 1 – (Hypo hypo) Secretion of hormones from the brain is less.</li> <li>Type 2 – (Normo) Commonest cause major contributor being PCOS.</li> <li>Type 3 – (Hyper) Indication of ovarian failure.</li> </ul>",
+          "image": ""
+        },
+        {
+          "title": "Diagnosis:",
+          "description": "<ul> <li>Blood investigation Checking of hormones like FSH, and LH &amp; Progesterone</li> <li>Ultrasound – follicular monitoring</li> </ul>",
+          "image": ""
+        },
+        {
+          "title": "Treatment:",
+          "description": "<ul> <li>Ovulation induction – use of medicines or injections to stimulate the ovaries to produce eggs</li> <li>Surgical management – Laparoscopic ovarian drilling in resistant PCO patients.</li> </ul>",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "Azoospermia",
+      "description": "<p>Absence of sperm in the semen</p>",
+      "image": "",
+      "sections": [
+        {
+          "title": "Causes:",
+          "description": "<ul> <li>Pre testicular – Imbalance in the hormones required for production of sperm</li> <li>Testicular – Defect in the testis due to congenital problem, disease or injury.</li> <li>Post testicular – Obstruction in the ducts transporting sperms produced in the testis.</li> </ul>",
+          "image": ""
+        },
+        {
+          "title": "Diagnosis:",
+          "description": "<ul> <li>Semen Analysis</li> <li>Blood investigation – Testing of hormones like FSH, Prolactin, Serum testosterone</li> <li>Karyotyping to rule out chromosomal problems.</li> </ul>",
+          "image": ""
+        },
+        {
+          "title": "Ultrasound:",
+          "description": "<ul> <li>Scrotal Ultrasound</li> <li>Trans rectal Ultrasound</li> <li>Testicular biopsy</li> </ul>",
+          "image": ""
+        },
+        {
+          "title": "Treatment:",
+          "description": "<ul> <li>Medical Management:</li> <li>GnRH therapy, hCG, hMG in pre testicular cause</li> <li>Surgical management:</li> <li>Sperm extraction procedures like TESE, TESA, MESA, PESA in testicular causes</li> <li>Surgical Anastomotic procedures in obstructive causes</li> <li>Donor insemination</li> </ul>",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
