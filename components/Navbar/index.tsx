@@ -101,7 +101,7 @@ export const Navbar = () => {
             <a className="nav-link"> 
                   A-Z of Fertility
                 </a>
-
+              </Link>
                 <Link href={'/a-to-z'}>
                   <a className="nav-link">
                     A-Z of Fertility
