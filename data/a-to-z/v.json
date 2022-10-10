@@ -1,0 +1,32 @@
+{
+    "title": "V",
+    "items": [
+      {
+        "title": "VARICOCELE",
+        "description": "<ul><li>A varicocele is an enlargement of the veins within the scrotum.</li> <li>Large varicoceles are a common cause of low sperm production and decreased sperm quality which can cause infertility. Fortunately most varicoceles are easy to diagnose and many don’t need treatment.</li> </ul>",
+        "image": "",
+        "sections": [
+          {
+            "title": "Symptoms",
+            "description": "<ul> <li>Most varicoceles do not produce any symptoms. Rarely it may cause pain which increases with prolonged standing and worsens with the course of the day. If very large, they may cause swelling of the testicles.</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Causes",
+            "description": "<ul> <li>A varicocele is believed to form when the valves inside the veins in the cord prevent blood from flowing properly. The resulting backup causes the veins to dilate.</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Complications",
+            "description": "<ul> <li>Shrinkage of the affected testicle and Infertility – as they keep the local temperature in the surrounding of the testicle too high.</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Treatment",
+            "description": "<ul> <li>In cases of large varicocele, detected on clinical examination varicocelectomy may be performed by open or laparoscopic method.</li> <li>In cases of varicocele which is diagnosed only on ultrasound surgical correction is not required.</li> </ul>",
+            "image": ""
+          }
+        ]
+      }
+    ]
+}

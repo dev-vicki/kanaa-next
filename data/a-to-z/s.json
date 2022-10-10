@@ -1,0 +1,32 @@
+{
+    "title": "S",
+    "items": [
+      {
+        "title": "SEMEN ANALYSIS",
+        "description": "<p>It is a test which evaluates certain characteristics of a man’s semen and the sperm contained in it. Semen is the fluid containing sperm plus other sugar and protein substances that is released during ejaculation.</p>",
+        "image": "",
+        "sections": [
+          {
+            "title": "Prior to giving the sample",
+            "description": "<ul> <li>Avoid intercourse 24 to 72 hours before the test </li> <li>Avoid alcohol and smoking 2 to 5 days before the test </li> <li>Discuss any medication you are taking with the doctor.</li>  </ul>",
+            "image": ""
+          },
+          {
+            "title": "Procedure for collection",
+            "description": "<ul> <li>Masturbation is considered as preferred method to get clean sample</li> <li>Other ways maybe sex with a non medicated condom</li> <li>Or sex with withdrawal before ejaculation</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Tips to improve sperm counts",
+            "description": "<ul> <li>Lose weight</li> <li>Exercise regularly</li> <li>Include green leafy vegetables and fresh fruits in your diet</li> <li>Avoid smoking and heavy drinking</li> <li>Avoid exposure to excessive heat</li> <li>Wear loose cotton boxers instead of tight briefs</li> <li>Take any vitamins prescribed by your doctor</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Common terminology used in reporting ",
+            "description": "<ul> <li>Normospermia – normal report</li> <li>Azoospermia – absence of sperm</li> <li>Oligospermia – sperm counts lesser than 15 mil per ml</li> <li>Asthenospermia – sperm motility is reduced</li> <li>Teratospermia – sperms with more morphological defects</li> <li>Necrospermia – all sperms in the ejaculate are dead</li></ul>",
+            "image": ""
+          }
+        ]
+      }
+    ]
+}

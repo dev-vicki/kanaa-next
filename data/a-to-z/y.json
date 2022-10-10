@@ -1,0 +1,17 @@
+{
+    "title": "Y",
+    "items": [
+      {
+        "title": "Y CHROMOSOME MICRODELETION (YCM)",
+        "description": "<ul><li>Micro deletion (YCM) It is a family of genetic disorders caused by missing genes in the Y chromosome.</li> <li>Mostly asymptomatic Present in a significant number of men with severe oligospermia or azoospermia</li> </ul>",
+        "image": "",
+        "sections": [
+          {
+            "title": "Diagnosis",
+            "description": "<ul> <li>Currently diagnosed by karyotyping with specific testing for micro deletions on the Y chromosome.</li> </ul>",
+            "image": ""
+          }
+        ]
+      }
+    ]
+}

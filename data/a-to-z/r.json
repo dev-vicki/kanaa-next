@@ -1,0 +1,22 @@
+{
+    "title": "R",
+    "items": [
+      {
+        "title": "RECANALIZATION",
+        "description": "<p>Recanalization of the fallopian tubes is a procedure undertaken to reverse a tubectomy where a portion of tubes have been excised. </p>",
+        "image": "",
+        "sections": [
+            {
+              "title": "Pre procedure",
+              "description": "<ul> <li>Consent of both husband and wife after proper counselling is essential</li> <li>Husband’s semen analysis should be within normal limits.</li> <li>Other obvious causes of female infertility should be ruled out.</li>  </ul>",
+              "image": ""
+            },
+            {
+              "title": "Procedure",
+              "description": "<ul> <li>Can be done by open method or by laparoscopy.</li> <li>Usually diagnostic laparoscopy is performed first, to ensure that sufficient lengths of the cut ends of the tubes are present before proceeding with the main procedure.</li> <li>Success rates vary from 30% to 60% with most pregnancies occurring in the first year after the procedure.</li> </ul>",
+              "image": ""
+            }
+          ]
+      }
+    ]
+}

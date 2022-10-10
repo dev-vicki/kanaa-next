@@ -1,0 +1,49 @@
+{
+    "title": "U",
+    "items": [
+      {
+        "title": "UNEXPLAINED INFERTILITY",
+        "description": "<ul><li>It is where the cause remains unknown even after a complete infertility work up including semen analysis in the man and assessment of ovulation and tubal patency in the woman.</li> <li>Prevalence :Accounts for about 10% of causes of infertility, globally.</li> <li>Possible Causes : Abnormalities are likely to be present but are not currently detected by commonly performed investigations.</li></ul>",
+        "image": "",
+        "sections": [
+          {
+            "title": "These may include",
+            "description": "<ul> <li>Poor egg quality </li> <li>Increased DNA fragmentation in the sperm </li> <li>Failure of sperm to fertilize the egg</li> <li>Mild endometriosis etc</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Management",
+            "description": "<ul> <li>Lifestyle modification</li> <li>Ovulation induction for 3 to 6 cycles</li> <li>Ovulation induction with IUI for 3 to 6 cycles</li> <li>IVF treatment</li> </ul>",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "title": "UTERINE MALFORMATION",
+        "description": "<p>Uterine malformations are congenital defects of a woman’s uterus occurring in about 5% of women</p>",
+        "image": "",
+        "sections": [
+          {
+            "title": "Types of malformation",
+            "description": "<ul><li><b>Arcuate</b>: Uterus appears normal from the outside but has a very small indentation protruding from the inner wall of the cavity. This is generally unproblematic. </li><li><b>Bicornuate</b>: The uterus appears heart shape with a deep indentation starting at the top of the uterus. </li> <li><b>Septate</b>: The uterus appears normal from outside but contains an internal wall or septum that divides the uterine cavity into two. </li> <li><b>Didelphys</b>: double uterus where the two halves of the uterus remain completely separate </li> <li><b>Unicornuate</b>: Only one half of the uterus is well developed. </li></ul>",
+            "image": ""
+          },
+          {
+            "title": "Diagnosis",
+            "description": "<ul> <li>Mostly discovered during investigation for infertility as they are usually asymptomatic</li> <li>3D ultra sound</li> <li>HSG</li> <li>MRI</li> <li>Diagnostic hysteroscopy</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Treatment: Medical Management ",
+            "description": "<ul> <li>Not Applicable</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "Treatment: Surgical Management",
+            "description": "<ul> <li>Only septate uterus needs to be treated the usual procedure performed being hysteroscopic septal resection.</li>  </ul>",
+            "image": ""
+          }
+        ]
+      }
+    ]
+}

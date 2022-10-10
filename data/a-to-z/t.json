@@ -1,0 +1,22 @@
+{
+    "title": "T",
+    "items": [
+      {
+        "title": "TESE, TESA",
+        "description": "<p>These are all various methods to extract sperms in the testis in patients with azoospermia.</p>",
+        "image": "",
+        "sections": [
+          {
+            "title": "TESE: Testicular sperm extraction ",
+            "description": "<ul> <li>It involves a surgical biopsy of the testis to obtain sperm.</li> </ul>",
+            "image": ""
+          },
+          {
+            "title": "TESA: Testicular sperm aspiration ",
+            "description": "<ul> <li>It is a procedure performed by inserting a needle in the testis and aspirating fluid and tissue with negative pressure.</li> <li>Both are performed in men with azoospermia to obtain sperm which is then used for ICSI</li> </ul>",
+            "image": ""
+          }
+        ]
+      }
+    ]
+}
