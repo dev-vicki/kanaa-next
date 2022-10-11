@@ -4,7 +4,7 @@
       {
         "title": "HSG",
         "description": "<ul><li>A hysterosalpingogram is an x-ray to assess the uterine cavity and patency of the fallopian tubes.</li> <li>Timing:done between day 3 to day 10 of the menstrual cycle.</li></ul>",
-        "image": "",
+        "image": "/assets/img/H.png",
         "sections": [
           {
             "title": "Method",
