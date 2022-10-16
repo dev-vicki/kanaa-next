@@ -31,7 +31,10 @@
       {
         "title": "LUTEAL PHASE OF MENSTRUAL CYCLE",
         "description": "<ul><li>Luteal phase is the second half of the menstrual cycle starting after ovulation and ending either in pregnancy or start of next periods.</li> <li>In most women it lasts 12 to 14 days.</li> <li>Progesterone is the major hormone of the luteal phase which is essential for the maintenance of any on-going pregnancy.</li> <li>Luteal phase defects can lead to recurrent pregnancy loss or infertility.(centre image)</li> </ul>",
-        "image": ""
+        "image": "/assets/img/L.png",
+        "sections": [
+          
+        ]
       }
     ]
   }
