@@ -9,17 +9,17 @@
       {
         "title": "CHOCOLATE CYST",
         "description": "<p>Ovarian cysts containing brownish thick old blood that appears like melted chocolate.</p> <p>Found in patients with endometriosis</p>",
-        "image": "",
+        "image": "/assets/img/C.png",
         "sections": [
             {
               "title": "Symptoms:",
               "description": "<ul> <li>Pain during periods</li> <li>Chronic pelvic pain</li> <li>Infertility</li> <li>Pain during intercourse</li> </ul>",
-              "image": ""
+              "image": "/assets/img/a-to-z/cryo.png"
             },
             {
                 "title": "Treatment:",
                 "description": "<ul> <li>Medical management – use of medicines or injections to provide pain relief.</li> <li>Surgical Management – Laparoscopic removal of cysts.</li> <li>ART – assisted reproductive techniques like IUI or IVF in patients with infertility</li> </ul>",
-                "image": ""
+                "image": "/assets/img/a-to-z/cryo2.png"
               }
         ]
       }

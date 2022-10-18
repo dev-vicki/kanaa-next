@@ -4,7 +4,12 @@
       {
         "title": "ZYGOTE",
         "description": "<ul><li>A zygote is a cell formed by union of the sperm and the egg.</li> <li>It begins as a single cell but divides rapidly in the days following fertilisation.</li> <li>After this two week period of cell division, the zygote eventually becomes an embryo.</li> </ul>",
-        "image": "/assets/img/Z.png"
+        "image": "/assets/img/Z.png",
+        "sections": [
+          {
+            "image": "/assets/img/a-to-z/zygote1.png"
+          }
+        ]
       }
     ]
 }

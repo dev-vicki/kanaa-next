@@ -9,22 +9,22 @@
           {
             "title": "Diagnosis",
             "description": "<ul> <li>pelvic examination</li> <li>Trans vaginal Ultrasound</li> <li>MRI</li> <li>Laparoscopy</li> </ul>",
-            "image": ""
+            "image": "/assets/img/a-to-z/endo1.png"
           },
           {
             "title": "Treatment: Medical Management",
             "description": "<ul> <li>Pain medication</li> <li>Hormone therapy – OCP, Progestins, GnRH, agonists</li> </ul>",
-            "image": ""
+            "image": "/assets/img/a-to-z/endo2.png"
           },
           {
             "title": "Treatment: Surgical Management",
             "description": "<ul> <li>Conservative laparoscopic surgery in patients trying to become pregnant.</li> <li>Hysterectomy with removal of the ovaries in older patients who have finished their family.</li> </ul>",
-            "image": ""
+            "image": "/assets/img/a-to-z/endo3.png"
           },
           {
             "title": "ART",
             "description": "<ul> <li>As endometriosis is a chronic progressive condition which can impair fertility it is advisable that patients seek fertility treatments and try to conceive as early as possible</li> </ul>",
-            "image": ""
+            "image": "/assets/img/a-to-z/endo4.png"
           }
         ]
       },
@@ -36,7 +36,7 @@
           {
             "title": "Stages of embryo development in IVF",
             "description": "<ul> <li>Fertilization is visible approximately 17 to 18 hours later with the development of two round bodies called pronuclei in the centre of the egg</li> <li>30 hours- from fertilization, the now fertilized egg will divide producing a two cell embryo.</li> <li>Day 2- four cell embryo stage</li> <li>Day 3- eight cell embryo stage</li> <li>Day 4- morula or ball of cells</li> <li>Day 5- 5- blastocyst</li> </ul>",
-            "image": ""
+            "image": "/assets/img/a-to-z/endo5.png"
           }
         ]
     }

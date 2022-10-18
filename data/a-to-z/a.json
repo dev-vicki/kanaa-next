@@ -9,17 +9,17 @@
         {
           "title": "Classification:",
           "description": "<ul> <li>Type 1 – (Hypo hypo) Secretion of hormones from the brain is less.</li> <li>Type 2 – (Normo) Commonest cause major contributor being PCOS.</li> <li>Type 3 – (Hyper) Indication of ovarian failure.</li> </ul>",
-          "image": ""
+          "image": "/assets/img/a-to-z/ano1.png"
         },
         {
           "title": "Diagnosis:",
           "description": "<ul> <li>Blood investigation Checking of hormones like FSH, and LH &amp; Progesterone</li> <li>Ultrasound – follicular monitoring</li> </ul>",
-          "image": ""
+          "image": "/assets/img/a-to-z/ano2.png"
         },
         {
           "title": "Treatment:",
           "description": "<ul> <li>Ovulation induction – use of medicines or injections to stimulate the ovaries to produce eggs</li> <li>Surgical management – Laparoscopic ovarian drilling in resistant PCO patients.</li> </ul>",
-          "image": ""
+          "image": "/assets/img/a-to-z/ano3.png"
         }
       ]
     },
@@ -31,12 +31,12 @@
         {
           "title": "Causes:",
           "description": "<ul> <li>Pre testicular – Imbalance in the hormones required for production of sperm</li> <li>Testicular – Defect in the testis due to congenital problem, disease or injury.</li> <li>Post testicular – Obstruction in the ducts transporting sperms produced in the testis.</li> </ul>",
-          "image": ""
+          "image": "/assets/img/a-to-z/ano4.png"
         },
         {
           "title": "Diagnosis:",
           "description": "<ul> <li>Semen Analysis</li> <li>Blood investigation – Testing of hormones like FSH, Prolactin, Serum testosterone</li> <li>Karyotyping to rule out chromosomal problems.</li> </ul>",
-          "image": ""
+          "image": "/assets/img/a-to-z/ano5.png"
         },
         {
           "title": "Ultrasound:",
